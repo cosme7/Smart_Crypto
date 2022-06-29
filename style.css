@@ -755,7 +755,7 @@
     }
 
     .cellphone-txt p{
-        width: 40ch;
+        width: 85vw;
         font-size: calc(.2rem + 3.5vw);
         text-align: center;
     }
@@ -827,7 +827,7 @@
     }
     
     .recommended-txt h4{
-        font-size: calc(.2rem + 3vw);
+        font-size: calc(.2rem + 2.5vw);
     }
     
     .recommended-fig{
@@ -855,7 +855,7 @@
     }
     
     .choose-txt p{
-        width: 50ch;
+        width: 85vw;
         font-size: calc(.2rem + 2.5vw);
     }
     
@@ -880,7 +880,7 @@
     }
     
     .choose-card p{
-        width: 20ch;
+        width: 30vw;
         font-size: calc(.2rem + 2vw);
     }
     /* MAIN 4º CONTAINER */
@@ -926,7 +926,7 @@
     }
     
     .convert-txt p{
-        width: 30ch;
+        width: 50vw;
         font-size: calc(.2rem + 2.5vw);
         line-height: 4vw;
         text-align: center;
@@ -987,7 +987,7 @@
     }
     
     .download-txt p, .download-txt-para{
-        width: 40ch;
+        width: 80vw;
         font-size: calc(.2rem + 2.5vw);
         line-height: 4vw;
         text-align: center;
@@ -1055,8 +1055,10 @@
     }
     
     .footer-about h4, .footer-support h4{
+        width: 40vw;
         font-size: calc(.2rem + 4vw);
         padding-bottom: 2vw;
+        text-align: center;
     }
     
     .footer-ul{
@@ -1078,10 +1080,11 @@
     .footer-h2{
         font-size: calc(.2rem + 8vw);
         padding-top: 0;
+        text-align: center;
     }
     
     .footer-info p{
-        width: 40ch;
+        width: 80vw;
         font-size: calc(.2rem + 3vw);
         line-height: 4vw;
         text-align: center;
