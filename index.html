@@ -11,7 +11,8 @@
     <header>
         <section class="h-container">
             <h1 class="h-h1">B<span class="span-h1">.</span>Th</h1>
-            <nav>
+            <input type="checkbox" id="nav-click" class="nav-click">
+            <nav class="h-nav">
                 <ul class="h-ul">
                     <a href="#">
                         <li>About Us</li>
@@ -27,25 +28,23 @@
                     </a>
                 </ul>
             </nav>
+            <label for="nav-click" class="nav-click-label">
+                <span class="menu-green"></span>
+                <span class="menu-orange"></span>
+            </label>
             <button class="h-btn">Download</button>
-            <button class="h-menu">
-                <span class="menu-green"></span>
-                <span class="menu-line">
-                    <span class="menu-green-spc"></span>
-                    <span class="menu-orange"></span>
-                </span>
-                <span class="menu-green"></span>
-            </button>
         </section>
     </header>
     <main>
         <section class="cellphone-container">
+            <div class="cellphone-green"></div>
             <div class="cellphone-txt">
                 <h2>Save Time and Start Digital Wallet!</h2>
+                <img src="assets/header_00.png" alt="line">
                 <p>A Lorem Ipsum is simply dummy text of the printing and 
                     typesetting industry. 
-                    Lorem Ipsum has been the industry's</p>
-            </div>
+                    Lorem Ipsum has been the industry's.</p>
+            </div>   
             <div class="btn-wrapper">
                 <button class="get-btn">Get Started</button>
                 <button class="video-btn"><span>
@@ -63,7 +62,6 @@
                 </div>
             </div>
             <figure class="fig-cellphone">
-                <div class="cellphone-green"></div>
                 <img src="assets/header_02.png" alt="cellphone">
             </figure>
         </section>
@@ -74,10 +72,10 @@
                 <span class="recom-line"></span>
             </div>
             <figure class="recommended-fig">
-                <img src="assets/main [1]_01.svg" alt="coinbase">
-                <img  class="blockchain" src="assets/main [1]_02.svg" alt="blockchain.com">
-                <img src="assets/main [1]_03.svg" alt="binance">
-                <img src="assets/main [1]_04.svg" alt="BitMEX">
+                <img class="coinbase" src="assets/main [1]_01.svg" alt="coinbase">
+                <img class="blockchain" src="assets/main [1]_02.svg" alt="blockchain.com">
+                <img class="binance" src="assets/main [1]_03.svg" alt="binance">
+                <img class="bitmex" src="assets/main [1]_04.svg" alt="BitMEX">
             </figure>
         </section>
         <section class="choose">
@@ -148,20 +146,18 @@
             <div class="convert-green"></div>
             <figure class="convert-fig">
                 <div class="convert-ellipse"></div>
-                <img src="assets/main [3]_01.png" alt="computer">
+                <img class="computer-desktop" src="assets/main [3]_01.png" alt="computer">
+                <img class="computer-mobile computer-desktop" src="assets/main [3]_01M.png" alt="computer-mobile">
             </figure>
             <div class="convert-txt">
                 <h2>Choose and Convert your Wallet Anytime!</h2>
-                <p>A Lorem Ipsum is simply dummy text of 
+                <p class="convert-para">A Lorem Ipsum is simply dummy text of 
                     the printing and typesetting industry. 
                     Lorem Ipsum has been the industry's  standard dummy 
                     text ever since the 1500s, when an unknown.</p>
                 <p>A Lorem Ipsum is simply dummy text of 
-                    the printing and typesetting industry.</p>
-                <p class="convert-txt-para">A Lorem Ipsum is simply dummy text of 
-                    the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's</p>    
-                <p class="convert-txt-para">A Lorem Ipsum is simply</p>
+                    the printing and typesetting industry.</p>   
+                <p>A Lorem Ipsum is simply</p>
                 <button class="convert-btn">Choose your wallet</button>
             </div>
         </section>
@@ -172,10 +168,6 @@
                     the printing and typesetting industry. 
                     Lorem Ipsum has been the industry's  
                     standard.</p>
-                <p class="download-txt-para">A Lorem Ipsum is simply 
-                    dummy text of 
-                    the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's</p>    
                 <p class="download-txt-para">A Lorem Ipsum is simply</p>
                 <figure class="download-social">
                     <a href="#">
@@ -188,7 +180,8 @@
             </div>
             <figure class="download-fig">
                 <div class="download-ellipse"></div>
-                <img src="assets/main [4]_03.png" alt="smartphone">
+                <img class="smart-desktop" src="assets/main [4]_03.png" alt="smartphone">
+                <img class="smart-mobile smart-desktop" src="assets/main [4]_03M.png" alt="smartphone">
             </figure>
             <div class="download-green"></div>
         </section>
